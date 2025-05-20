@@ -402,7 +402,7 @@ function initialize(cactusJumpDelay = 0, t1Jump = false, t1JumpDelay = 0, t2Jump
 
   if (name == "none") {
     player = [
-      new Player(/*"Gaywad"*/ "Corkle", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
+      new Player("Corkle", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
       new Player("Winnie", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
       new Player("Ice Spice", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
       new Player("Violet", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
