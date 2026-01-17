@@ -1,4 +1,4 @@
-/* https://karthiknedunchezhiyan.com/google-chrome-dino/ */
+//GAME CODE
 const display = document.querySelector("canvas");
 const ctx = display.getContext("2d");
 var currentFrame = 0;
@@ -411,12 +411,12 @@ function initialize(cactusJumpDelay = 0, t1Jump = false, t1JumpDelay = 0, t2Jump
       new Player("Goob", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
       new Player("Lemon Boy", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
       new Player("Striker Stronghammer", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
-      new Player("none", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
-      new Player("none", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
-      new Player("none", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
-      new Player("none", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
-      new Player("none", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
-      new Player("none", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay)
+      new Player("BlackBeard", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
+      new Player("HAX0R", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
+      new Player("John Baylor", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
+      new Player("Your Next Door Neighbor", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
+      new Player("A Man Named Dan", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay),
+      new Player("Nicholas Cage", cactusJumpDelay, t1Jump, t1JumpDelay, t2Jump, t2JumpDelay, t3Jump, t3JumpDelay)
     ];
   } else {
     player = [
