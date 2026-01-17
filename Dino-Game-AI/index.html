@@ -9,7 +9,29 @@
 </head>
 
 <body>
-  <canvas></canvas>
+  <p>
+    This is an old project of mine based off the chrome dino game. This program uses a type of reinforcement learning called an evolutionary
+    algorithm. This algorithm will emulate evolution in nature where organisms will randomly mutate and those with beneficial mutations will
+    have offspring who will live on after them.
+  </p>
+
+  <p>
+    This algorithm works by having different jump distances(3 for different bird heights and 1 for cacti) which determine
+    when the dino will jump to try to avoid the obstacles.
+  </p>
+
+  <p>
+    Each initial dino(20) has a name so you can see who survives and passes on their genes
+  </p>
+
+  <p>
+    At the start of the program each dino has completely random jump distances and each new iteration
+    the jump distance gets tweaked slightly based on a random number. This is what makes it evolutionary
+  </p>
+  <canvas width="1180px" height="808px"></canvas>
+  <br>
+  <button id="view_code">View Code</button>
+
   <script src="script.js"></script>
 </body>
 
